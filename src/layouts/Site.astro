@@ -1,0 +1,24 @@
+---
+import HtmlBase from "./HtmlBase.astro";
+---
+
+<HtmlBase title={"Project - " + Astro.props.title} desc={Astro.props.desc}>
+    <header>
+        Header
+    </header>
+
+    <main>
+        <slot />
+    </main>
+
+    <footer>
+        Footer
+    </footer>
+</HtmlBase>
+
+
+<style>
+    header, footer {
+        color: red;
+    }
+</style>

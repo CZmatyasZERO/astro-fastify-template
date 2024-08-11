@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        "**/.astro": true,
+        "**/.vscode": true,
+        "**/dist": true,
+        "**/node_modules": true
+    }
+}

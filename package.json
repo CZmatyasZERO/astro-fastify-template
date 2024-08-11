@@ -1,0 +1,33 @@
+{
+  "name": "astro-fastify-template",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "node --loader=ts-node/esm ./server/server.ts",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "server": "node --loader=ts-node/esm ./server/server.ts"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.1",
+    "@astrojs/node": "^8.3.2",
+    "@astrojs/ts-plugin": "^1.9.1",
+    "@fastify/autoload": "^5.10.0",
+    "@fastify/compress": "^7.0.3",
+    "@fastify/helmet": "^11.1.1",
+    "@fastify/middie": "^8.3.1",
+    "@fastify/static": "^7.0.4",
+    "@fastify/type-provider-json-schema-to-ts": "^3.0.0",
+    "@types/node": "^22.1.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "astro": "^4.13.1",
+    "fastify": "^4.28.1",
+    "json-syncdb": "^1.1.2",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

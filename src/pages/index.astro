@@ -1,0 +1,10 @@
+---
+export const prerender = false
+import Site from "../layouts/Site.astro";
+const data = Astro.locals
+---
+
+
+<Site title="Main page" desc="main page">
+    Hello Astro! Message from database: {data.message}
+</Site>

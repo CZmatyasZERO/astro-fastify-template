@@ -1,0 +1,13 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "types": ["./types.d.ts"],
+    "strict": true,
+    "noStrictGenericChecks": false
+  },
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true
+  }
+}
