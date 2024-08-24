@@ -47,6 +47,7 @@ app.use((req, res, next) => {
 await app.register(fastifyStatic, {
   root: fileURLToPath(new URL('./../dist/client', import.meta.url)),
   list: false,
+  extensions: ["html"]
 })
 
 

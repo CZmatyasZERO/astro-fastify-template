@@ -24,4 +24,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Feel free to check their [documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat)."# astro-fastify-template" 
+Feel free to check their [documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat).
